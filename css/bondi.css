@@ -45,3 +45,8 @@ body {
 .navbar .navbar-toggler[aria-expanded="true"] {
     border-color: var(--green-color);
 }   
+.main-btn{
+    border-color: var(--red-color);
+    background-color: var(--red-color);
+    padding: 0.5rem 1rem ;
+}

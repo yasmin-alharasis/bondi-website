@@ -45,7 +45,7 @@ body {
     border-color: var(--red-color);
     background-color: var(--red-color);
     padding: 0.5rem 1rem ;
-    color: var(--yellow-color);
+    color: var(--yellow-color) !important;
     font-weight: 500;
 }
 /* landing */
@@ -78,6 +78,41 @@ body {
     font-size: 12rem;
     color: var(--section-color);
 }
-.icon{
+.featureIcon{
     color: var(--green-color);
+}
+/* Work */
+.our-work{
+    background-color: var(--section-color)
+}
+.our-work ul li{
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+.our-work ul li:not(.active):hover{
+    color: var(--red-color);
+}   
+.box{
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.our-work .box::before{
+    content: attr(data-work);
+    position: absolute;
+    background-color: rgb(51 209 204 / 54%);
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 3s;
+    transform: translateX(calc(-100% - 5px));
+}
+.our-work .box:hover::before{
+    transform: translateX(0);
 }

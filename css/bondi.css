@@ -135,3 +135,10 @@ body {
 .our-team .card-description{
     background-color: white
 }
+/* project */
+.project{
+    background-color: var(--dark-color);
+}
+.project h2{
+    color: white;
+}

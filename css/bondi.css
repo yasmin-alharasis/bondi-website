@@ -7,7 +7,6 @@
 }
 body {
     font-family: "Roboto", "sans-serif";
-    height: 10000px;
 }
 /* Navbar */
 .navbar{
@@ -141,4 +140,23 @@ body {
 }
 .project h2{
     color: white;
+}
+/* subscribe */
+.subscribe{
+    background-color: var(--yellow-color);
+}
+.subscribe  input[type='text']{
+    border: none;
+    border-bottom: 1px solid white;
+}
+.subscribe  input[type='text']:focus{
+    outline: none;
+}
+.subscribe  input[type='text']::placeholder {
+    color: white;
+    font-weight: 500;
+}
+.subscribe  input[type='submit']{
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
 }

@@ -160,3 +160,31 @@ body {
     background-color: var(--dark-color);
     color: var(--yellow-color);
 }
+/* footer */
+.footer{
+    background-color: var(--dark-color);
+}
+.footer span:first-child{
+    color: var(--green-color);
+}
+.footer span:last-child {
+    color: var(--yellow-color);
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul a{
+    text-decoration:none;
+}
+.footer .facebook{
+   background-color: #1877f2;
+}
+.footer .twitter{
+    background-color: #1da1f2;
+}
+.footer .linkedin{
+    background-color: #0a66c2;
+}
+.footer .youtube{
+    background-color: #ff0000;
+}

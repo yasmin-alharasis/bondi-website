@@ -20,7 +20,7 @@
 ## About The Project
 - This project is built to practice skills in HTML, CSS, and Bootstrap for Responsive Web Design.
 
-[![Product Name Screen Shot][product-screenshot]](images/screenShot.png)
+[![Project landing page Screen Shot][project-screenshot]](images/screenShot.png)
 
 ### Built With
 
@@ -62,4 +62,4 @@ _Below is an example of how you can instruct your audience on installing and set
 
 [HTML.com]: https://img.shields.io/badge/HTML-e34f26?style=for-the-badge&logo=HTML
 [Css.com]: https://img.shields.io/badge/CSS-347aeb?style=for-the-badge&logo=CSS
-[product-screenshot]: images/screenshot.png
+[project-screenshot]: images/screenshot.png

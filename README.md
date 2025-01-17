@@ -22,6 +22,7 @@
 
 [![Project landing page Screen Shot][project-screenshot]](images/screenShot.png)
 
+
 ### Built With
 
 * ![HTML][HTML.com] &nbsp;
@@ -62,4 +63,5 @@ _Below is an example of how you can instruct your audience on installing and set
 
 [HTML.com]: https://img.shields.io/badge/HTML-e34f26?style=for-the-badge&logo=HTML
 [Css.com]: https://img.shields.io/badge/CSS-347aeb?style=for-the-badge&logo=CSS
-[project-screenshot]: images/screenshot.png
+[project-screenshot]: images/screenShot.png
+
